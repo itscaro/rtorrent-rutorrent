@@ -24,4 +24,3 @@ rm -f /downloads/.rtorrent/session/rtorrent.lock
 
 # run
 su --login --command="TERM=xterm rtorrent" rtorrent 
-

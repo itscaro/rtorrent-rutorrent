@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  docktorrent:
+    build: .
+    volumes:
+      - /home/itscaro/torrent:/downloads
+    ports:
+      - 10080:80
+      - 49161
+      - 49160:49160/udp
+    labels:
+    #  - "traefik.backend=torrent"      
+      - "traefik.frontend.rule=Host:torrent.fr.itscaro.me"

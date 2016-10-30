@@ -1,7 +1,5 @@
-deb http://ru.archive.ubuntu.com/ubuntu/ trusty multiverse
-deb-src http://ru.archive.ubuntu.com/ubuntu/ trusty multiverse
-deb http://ru.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
-deb-src http://ru.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
+deb http://ru.archive.ubuntu.com/ubuntu/ xenial multiverse
+deb-src http://ru.archive.ubuntu.com/ubuntu/ xenial multiverse
 
-deb http://ppa.launchpad.net/kirillshkrogalev/ffmpeg-next/ubuntu trusty main
-
+deb http://ru.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
+deb-src http://ru.archive.ubuntu.com/ubuntu/ xenial-updates multiverse
